@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tunnel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        MinHeight="250" MinWidth="600"
+        MaxHeight="450" MaxWidth="800">
     <Grid>
+        <TabControl TabStripPlacement="Left" Margin="10,10,10,10">
+            <TabItem Name="connections" Header="Connections" Padding="10">
+                <TabItem.Content>
+                    <TextBlock TextWrapping="WrapWithOverflow">
 
+                    </TextBlock>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="general" Header="General" Padding="10">
+                <TabItem.Content>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+
+                    </TextBlock>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="appearance" Header="Appearance" Padding="10">
+                <TabItem.Content>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+
+                    </TextBlock>
+                </TabItem.Content>
+            </TabItem>
+
+            <TabItem Name="advanced" Header="Advanced" Padding="10">
+                <TabItem.Content>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+
+                    </TextBlock>
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
