@@ -349,5 +349,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-!Resources/OpenVPN/x86/*
-!Resources/OpenVPN/x64/*
+!Tunnel/Resources/OpenVPN/x86/*
+!Tunnel/Resources/OpenVPN/x64/*
