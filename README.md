@@ -1,7 +1,7 @@
 # Tunnel
 ![License](https://img.shields.io/github/license/rjindael/Tunnel) ![Star](https://img.shields.io/github/stars/rjindael/Tunnel?style=social)
 
-An open-source OpenVPN client with a slick UI
+An open-source OpenVPN client with a slick UI.
 
 ## License
 
